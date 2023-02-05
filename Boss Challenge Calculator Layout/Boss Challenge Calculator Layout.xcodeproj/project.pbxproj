@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08704FB42990221900632118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FB32990221900632118 /* AppDelegate.swift */; };
+		08704FB62990221900632118 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FB52990221900632118 /* SceneDelegate.swift */; };
+		08704FB82990221900632118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FB72990221900632118 /* ViewController.swift */; };
+		08704FBB2990221900632118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08704FB92990221900632118 /* Main.storyboard */; };
+		08704FBD2990221B00632118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08704FBC2990221B00632118 /* Assets.xcassets */; };
+		08704FC02990221B00632118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08704FBE2990221B00632118 /* LaunchScreen.storyboard */; };
+		08704FCB2990221B00632118 /* Boss_Challenge_Calculator_LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FCA2990221B00632118 /* Boss_Challenge_Calculator_LayoutTests.swift */; };
+		08704FD52990221B00632118 /* Boss_Challenge_Calculator_LayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FD42990221B00632118 /* Boss_Challenge_Calculator_LayoutUITests.swift */; };
+		08704FD72990221B00632118 /* Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08704FD62990221B00632118 /* Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08704FC72990221B00632118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08704FA82990221900632118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08704FAF2990221900632118;
+			remoteInfo = "Boss Challenge Calculator Layout";
+		};
+		08704FD12990221B00632118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08704FA82990221900632118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08704FAF2990221900632118;
+			remoteInfo = "Boss Challenge Calculator Layout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08704FB02990221900632118 /* Boss Challenge Calculator Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boss Challenge Calculator Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08704FB32990221900632118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08704FB52990221900632118 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08704FB72990221900632118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08704FBA2990221900632118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08704FBC2990221B00632118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08704FBF2990221B00632118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08704FC12990221B00632118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08704FC62990221B00632118 /* Boss Challenge Calculator LayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boss Challenge Calculator LayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08704FCA2990221B00632118 /* Boss_Challenge_Calculator_LayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss_Challenge_Calculator_LayoutTests.swift; sourceTree = "<group>"; };
+		08704FD02990221B00632118 /* Boss Challenge Calculator LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boss Challenge Calculator LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08704FD42990221B00632118 /* Boss_Challenge_Calculator_LayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss_Challenge_Calculator_LayoutUITests.swift; sourceTree = "<group>"; };
+		08704FD62990221B00632118 /* Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08704FAD2990221900632118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FC32990221B00632118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FCD2990221B00632118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08704FA72990221900632118 = {
+			isa = PBXGroup;
+			children = (
+				08704FB22990221900632118 /* Boss Challenge Calculator Layout */,
+				08704FC92990221B00632118 /* Boss Challenge Calculator LayoutTests */,
+				08704FD32990221B00632118 /* Boss Challenge Calculator LayoutUITests */,
+				08704FB12990221900632118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08704FB12990221900632118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08704FB02990221900632118 /* Boss Challenge Calculator Layout.app */,
+				08704FC62990221B00632118 /* Boss Challenge Calculator LayoutTests.xctest */,
+				08704FD02990221B00632118 /* Boss Challenge Calculator LayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08704FB22990221900632118 /* Boss Challenge Calculator Layout */ = {
+			isa = PBXGroup;
+			children = (
+				08704FB32990221900632118 /* AppDelegate.swift */,
+				08704FB52990221900632118 /* SceneDelegate.swift */,
+				08704FB72990221900632118 /* ViewController.swift */,
+				08704FB92990221900632118 /* Main.storyboard */,
+				08704FBC2990221B00632118 /* Assets.xcassets */,
+				08704FBE2990221B00632118 /* LaunchScreen.storyboard */,
+				08704FC12990221B00632118 /* Info.plist */,
+			);
+			path = "Boss Challenge Calculator Layout";
+			sourceTree = "<group>";
+		};
+		08704FC92990221B00632118 /* Boss Challenge Calculator LayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				08704FCA2990221B00632118 /* Boss_Challenge_Calculator_LayoutTests.swift */,
+			);
+			path = "Boss Challenge Calculator LayoutTests";
+			sourceTree = "<group>";
+		};
+		08704FD32990221B00632118 /* Boss Challenge Calculator LayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08704FD42990221B00632118 /* Boss_Challenge_Calculator_LayoutUITests.swift */,
+				08704FD62990221B00632118 /* Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift */,
+			);
+			path = "Boss Challenge Calculator LayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08704FAF2990221900632118 /* Boss Challenge Calculator Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08704FDA2990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator Layout" */;
+			buildPhases = (
+				08704FAC2990221900632118 /* Sources */,
+				08704FAD2990221900632118 /* Frameworks */,
+				08704FAE2990221900632118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boss Challenge Calculator Layout";
+			productName = "Boss Challenge Calculator Layout";
+			productReference = 08704FB02990221900632118 /* Boss Challenge Calculator Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08704FC52990221B00632118 /* Boss Challenge Calculator LayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08704FDD2990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator LayoutTests" */;
+			buildPhases = (
+				08704FC22990221B00632118 /* Sources */,
+				08704FC32990221B00632118 /* Frameworks */,
+				08704FC42990221B00632118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08704FC82990221B00632118 /* PBXTargetDependency */,
+			);
+			name = "Boss Challenge Calculator LayoutTests";
+			productName = "Boss Challenge Calculator LayoutTests";
+			productReference = 08704FC62990221B00632118 /* Boss Challenge Calculator LayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08704FCF2990221B00632118 /* Boss Challenge Calculator LayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08704FE02990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator LayoutUITests" */;
+			buildPhases = (
+				08704FCC2990221B00632118 /* Sources */,
+				08704FCD2990221B00632118 /* Frameworks */,
+				08704FCE2990221B00632118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08704FD22990221B00632118 /* PBXTargetDependency */,
+			);
+			name = "Boss Challenge Calculator LayoutUITests";
+			productName = "Boss Challenge Calculator LayoutUITests";
+			productReference = 08704FD02990221B00632118 /* Boss Challenge Calculator LayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08704FA82990221900632118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					08704FAF2990221900632118 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					08704FC52990221B00632118 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 08704FAF2990221900632118;
+					};
+					08704FCF2990221B00632118 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 08704FAF2990221900632118;
+					};
+				};
+			};
+			buildConfigurationList = 08704FAB2990221900632118 /* Build configuration list for PBXProject "Boss Challenge Calculator Layout" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08704FA72990221900632118;
+			productRefGroup = 08704FB12990221900632118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08704FAF2990221900632118 /* Boss Challenge Calculator Layout */,
+				08704FC52990221B00632118 /* Boss Challenge Calculator LayoutTests */,
+				08704FCF2990221B00632118 /* Boss Challenge Calculator LayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08704FAE2990221900632118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08704FC02990221B00632118 /* LaunchScreen.storyboard in Resources */,
+				08704FBD2990221B00632118 /* Assets.xcassets in Resources */,
+				08704FBB2990221900632118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FC42990221B00632118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FCE2990221B00632118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08704FAC2990221900632118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08704FB82990221900632118 /* ViewController.swift in Sources */,
+				08704FB42990221900632118 /* AppDelegate.swift in Sources */,
+				08704FB62990221900632118 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FC22990221B00632118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08704FCB2990221B00632118 /* Boss_Challenge_Calculator_LayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08704FCC2990221B00632118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08704FD52990221B00632118 /* Boss_Challenge_Calculator_LayoutUITests.swift in Sources */,
+				08704FD72990221B00632118 /* Boss_Challenge_Calculator_LayoutUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08704FC82990221B00632118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08704FAF2990221900632118 /* Boss Challenge Calculator Layout */;
+			targetProxy = 08704FC72990221B00632118 /* PBXContainerItemProxy */;
+		};
+		08704FD22990221B00632118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08704FAF2990221900632118 /* Boss Challenge Calculator Layout */;
+			targetProxy = 08704FD12990221B00632118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08704FB92990221900632118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08704FBA2990221900632118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08704FBE2990221B00632118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08704FBF2990221B00632118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08704FD82990221B00632118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08704FD92990221B00632118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08704FDB2990221B00632118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boss Challenge Calculator Layout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08704FDC2990221B00632118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Boss Challenge Calculator Layout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08704FDE2990221B00632118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boss Challenge Calculator Layout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boss Challenge Calculator Layout";
+			};
+			name = Debug;
+		};
+		08704FDF2990221B00632118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Boss Challenge Calculator Layout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Boss Challenge Calculator Layout";
+			};
+			name = Release;
+		};
+		08704FE12990221B00632118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boss Challenge Calculator Layout";
+			};
+			name = Debug;
+		};
+		08704FE22990221B00632118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mubozk.Boss-Challenge-Calculator-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Boss Challenge Calculator Layout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08704FAB2990221900632118 /* Build configuration list for PBXProject "Boss Challenge Calculator Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08704FD82990221B00632118 /* Debug */,
+				08704FD92990221B00632118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08704FDA2990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08704FDB2990221B00632118 /* Debug */,
+				08704FDC2990221B00632118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08704FDD2990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator LayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08704FDE2990221B00632118 /* Debug */,
+				08704FDF2990221B00632118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08704FE02990221B00632118 /* Build configuration list for PBXNativeTarget "Boss Challenge Calculator LayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08704FE12990221B00632118 /* Debug */,
+				08704FE22990221B00632118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08704FA82990221900632118 /* Project object */;
+}
