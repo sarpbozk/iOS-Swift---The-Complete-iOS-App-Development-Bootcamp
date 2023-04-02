@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  Destini
+//  Destini-iOS13
 //
-//  Created by Muhammet BOZKURT on 3.04.2023.
+//  Created by Angela Yu on 08/08/2019.
+//  Copyright © 2019 The App Brewery. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
