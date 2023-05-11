@@ -38,6 +38,9 @@ func findNemo(from animals: [Animal]) {
 
 findNemo(from: neighbours)
 
+//let fish = neighbours[1] as! Fish // will give error // not fish and we are forcing it to be a fish
+// use ? instead of ! if you are unsure that it will fit in
+
 //let neighbours1 = neighbours[0] // still animal
 //
 //let myDouble = 0.0
