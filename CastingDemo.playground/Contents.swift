@@ -23,9 +23,10 @@ class Fish: Animal {
 let muhammet = Human(n: "Muhammet Bozkurt")
 let jack = Human(n: "Jack Bauer")
 let nemo = Fish(n: "Nemo")
+let num = 12
 
-let neighbours = [muhammet, jack, nemo] // animal array
-
+let neighbours: [Any] = [muhammet, jack, nemo] // animal array
+             // flex // if it is AnyObject it'll give error because AnyObject only uses classes, can't use structs
 func findNemo(from animals: [Animal]) {
     for animal in animals {
         if animal is Fish {
@@ -36,10 +37,12 @@ func findNemo(from animals: [Animal]) {
     }
 }
 
-findNemo(from: neighbours)
+//findNemo(from: neighbours)
 
 //let fish = neighbours[1] as! Fish // will give error // not fish and we are forcing it to be a fish
 // use ? instead of ! if you are unsure that it will fit in
+// use as with no signs when you are going for superclasses of the current class // for example fish to animal
+// use any if you want flexibility
 
 //let neighbours1 = neighbours[0] // still animal
 //
